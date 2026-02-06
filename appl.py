@@ -7,7 +7,7 @@ import seaborn as sns
 st.title("Food Delivery Trends and Customer Satisfaction Analysis")
 
 # Load dataset
-df = pd.read_csv("C:\\DV\\Food_Delivery_Times.csv")   # change name if your CSV is different
+df = pd.read_csv("Food_Delivery_Times.csv")   # change name if your CSV is different
 
 # Remove missing values
 df = df.dropna()
